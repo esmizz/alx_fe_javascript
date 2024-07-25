@@ -25,6 +25,7 @@ function addQuote() {
     document.getElementById('newQuoteText').value = '';
     document.getElementById('newQuoteCategory').value = '';
     alert('Quote added successfully!');
+    showRandomQuote(); // Optionally display the newly added quote
   } else {
     alert('Please enter both a quote and a category.');
   }
